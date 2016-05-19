@@ -13,7 +13,7 @@ the throttle drop to 79.5 at it's lowest. The required delta v varied between 18
 considerably fuel efficient landings regardless of TWR.
 
 Notes:
-You MUST change the "radarOffset" variable within the script, this should be set to your vehicles alt:radar
+You MUST change the "radarOffset" variable within the script, this should be set to your vehicle's alt:radar
 value when landed on its gear. I have tested this script with TWRs between 1.3 and 10.6 so cannot guarantee
 how it will work outside that range. I have tested without airbrakes and it seems to still work normally
 however if you are coming in at crazy speeds (directly downward from 200km or something) it may burn earlier
@@ -24,3 +24,5 @@ doesn't consider drag anyway.
 
 Example:
 Here is a video demonstrating the script performing a hoverslam well enough to land on the engine bell, even with the extreme deceleration the landing is precise enough to not tip or explode: https://youtu.be/nYz5GrC2BIM
+
+ImpartialDerivatives: I have forked this code to take into account horizontal velocity. Comparison here: https://gfycat.com/BruisedPolishedChrysalis
